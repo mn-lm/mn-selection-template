@@ -1,0 +1,12 @@
+:root {
+
+    --color-white: #ffffff;
+    --color-black: #000000;
+
+    --spacing-small: 0.5rem;
+    --spacing-medium: 1rem;
+    --spacing-large: 2rem;
+
+    --container-width: 1200px;
+
+}

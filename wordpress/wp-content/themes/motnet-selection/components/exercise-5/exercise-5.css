@@ -1,0 +1,62 @@
+/* GRID */
+.exercise-5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.exercise-5__item {
+  cursor: pointer;
+}
+
+.exercise-5__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+/* LIGHTBOX */
+.exercise-5__lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* stato chiuso forzato */
+.exercise-5__lightbox[hidden] {
+  display: none !important;
+}
+
+.exercise-5__lightbox-image {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.exercise-5__close,
+.exercise-5__nav {
+  position: fixed;
+  background: none;
+  border: 0;
+  color: #fff;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.exercise-5__close {
+  top: 1rem;
+  right: 1.5rem;
+}
+
+.exercise-5__nav.prev {
+  left: 1.5rem;
+}
+
+.exercise-5__nav.next {
+  right: 1.5rem;
+}

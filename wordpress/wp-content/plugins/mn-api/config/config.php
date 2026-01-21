@@ -1,0 +1,4 @@
+<?php
+define('MN_SITE_INFO_VERSION', '1.0.0');
+define('MN_SITE_INFO_NAMESPACE', 'mn-api/v1');
+define('MN_SITE_INFO_API_TOKEN', 'CAMBIA_TOKEN_LUNGO_RANDOM');

@@ -1,0 +1,26 @@
+.exercise-4 {
+    border: 5px solid gray;
+}
+
+.exercise-4__wrapper {
+  display: grid;
+}
+
+.exercise-4__item-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.exercise-4__item-toggle-button {
+  transition: transform .3s ease;
+}
+
+.exercise-4__item-body {
+  display: none;
+}
+
+.exercise-4__item--open .exercise-4__item-body {
+  display: block;
+}

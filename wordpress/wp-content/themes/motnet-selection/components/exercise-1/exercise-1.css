@@ -1,0 +1,40 @@
+.exercise-1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid gray;
+}
+
+/* .exercise-1__background-image::after, */
+.exercise-1__background-image img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* .exercise-1__background-image::after {
+  content: "";
+  background-color: hsla(0, 0%, 0%, 0.4);
+} */
+
+.exercise-1__background-image img {
+  object-fit: cover;
+}
+
+.exercise-1__container {
+  max-width: var(--container-width);
+}
+
+.exercise-1__wrapper {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.exercise-1__title {
+  display: inline-block;
+  width: 100%;
+}
+
