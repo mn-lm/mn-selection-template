@@ -7,9 +7,15 @@ L’obiettivo è permetterti di lavorare subito sul codice, senza configurazioni
 
 ## Requisiti
 
-- Docker  
-- Docker Compose  
-- Visual Studio Code (consigliato)
+- Visual Studio Code
+- GitHub Codespaces Extension for VSCode
+
+---
+
+## !! Attenzione !!
+Per funzionare correttamente (http://localhost:8080), il progetto deve essere 
+aperto e modificato in Visual Studio Code, non nel browser.
+
 
 ---
 
@@ -27,7 +33,7 @@ http://localhost:8080
 ### Admin WordPress
 http://localhost:8080/wp-admin
 
-Attendere qualche secondo
+Attendere un paio di minuti
 
 ---
 
