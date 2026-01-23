@@ -100,6 +100,30 @@ Il resto dell’installazione WordPress non va modificato.
 
 ---
 
+## Consegna degli esercizi
+
+Eseguire il dump del database
+
+```bash
+docker compose exec db mysqldump \
+  --no-tablespaces \
+  --single-transaction \
+  --quick \
+  -u wp -pwp wordpress > docker/db/init.sql
+```
+
+Eseguire il commit finale delle modifiche
+
+```bash
+git add .
+git commit -m "Final submission"
+git push
+```
+
+Invio della comunicazione della conclusione su Linkedin
+
+---
+
 ## Nota sull’HTTP
 
 È stata scelta una configurazione **HTTP** per semplificare l’ambiente ed evitare complessità non rilevanti ai fini della selezione.  
